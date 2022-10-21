@@ -1,6 +1,9 @@
 # Ideas y dudas
 
-Tratar de no imputar la variable precio porque es la variable target y puede ensuciar.
+## Tips de Ioni
+
+-   Tratar de no imputar la variable precio porque es la variable target y puede ensuciar.
+-   Convertir nro de rooms en variable categórica. Sin dato, 1, 2, 3, 4 o mas.
 
 ## Común
 
