@@ -1,5 +1,7 @@
 # Ideas y dudas
 
+Tratar de no imputar la variable precio porque es la variable target y puede ensuciar.
+
 ## Común
 
 -   revisar si hay propiedades repetidas
@@ -7,6 +9,7 @@
 -   Bonus: Identificar datos faltantes a partir de la descripción
 -   Relación superficie/ubicación
 -   Revisar si el url Properatti provee información valiosa.
+-   Revisar qué contización de dolar se usa en cada valuación. ¿Cuál era la cotización a la fecha de la creación de la tabla?
 
 ## Dos grupos:
 
