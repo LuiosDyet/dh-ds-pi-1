@@ -6,6 +6,7 @@
 -   corroborar si price_aprox_usd y price_aprox_local_currency coinciden o no
 -   Bonus: Identificar datos faltantes a partir de la descripción
 -   Relación superficie/ubicación
+-   Revisar si el url Properatti provee información valiosa.
 
 ## Dos grupos:
 
