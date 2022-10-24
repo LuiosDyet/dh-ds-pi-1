@@ -12,14 +12,14 @@
 -   Bonus: Identificar datos faltantes a partir de la descripción
 -   Relación superficie/ubicación
 -   Revisar si el url Properatti provee información valiosa.
--   Revisar qué contización de dolar se usa en cada valuación. ¿Cuál era la cotización a la fecha de la creación de la tabla?
+-   Revisar qué cotización de dólar se usa en cada valuación. ¿Cuál era la cotización a la fecha de la creación de la tabla?
 
 ## Dos grupos:
 
 ### Ubicación/precio: Luis, Camila, Irania
 
 -   corroborar si place_with_parent_names coincide con place_name, country_name, country_name
--   ¿qué es geonames_id? Es un sistema de geolocalización relacionada a wgs84. Ver si se puede inferir latitud y longitud a partir de este dato.
+-   ¿qué es geonames_id? Es un sistema de geo localización relacionada a wgs84. Ver si se puede inferir latitud y longitud a partir de este dato.
 -   corroborar si lat y lon coinciden con lat-lon
 
 ### Superficie/precio: Jonathan, Ornella
