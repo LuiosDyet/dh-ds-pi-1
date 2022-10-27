@@ -18,7 +18,7 @@
 
 ### Ubicación/precio: Luis, Camila, Irania
 
--   corroborar si place_with_parent_names coincide con place_name, country_name, country_name
+-   corroborar si place_with_parent_names coincide con place_name, country_name, country_name / Listo (Luis)
 -   ¿qué es geonames_id? Es un sistema de geo localización relacionada a wgs84. Ver si se puede inferir latitud y longitud a partir de este dato.
 -   corroborar si lat y lon coinciden con lat-lon
 
