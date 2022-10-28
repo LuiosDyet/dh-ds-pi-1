@@ -27,3 +27,4 @@
 -   se puede inferir m2desde price_per_m2, price_usd_per_m2. Se puede sacar de precio actual total / superficie - Pendiente 
 -   Inferir cantidad de habitaciones en base al tipo de propiedad y superficie - Revisar relacion precio vs rooms. comparar propiedades similares con distinta cantidad de rooms para ver si varia sustancialmente el precio. PENDIENTE.
 
+#idea para presentacion: quizas podemos hacer un grafico al final de la presentacion donde mostremos cuanta informacion logramos recuperar, mostrando %previo y posterior a la limpieza.
