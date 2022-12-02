@@ -53,3 +53,25 @@ plt.show()
 #plt.grid()
 #plt.show()
 ```
+
+>PENDIENTE- VER SI AJUSTAMOS EL MODELO REDUCIENDO LA CANTIDAD DE DATOS
+> dejo aca los codigos
+
+```
+# superficie_min=15
+# superficie_max=1000
+
+# data = data[(data.sup_m2_total <= 1000) & (data.sup_m2_total >= 15)]
+
+# data = data[(data.precio_usd <= 4000000)]
+
+
+# # Generamos una función que resume los coeficientes, el intercepto y el R2
+# # "model" = objeto con el modelo
+# # "X" = matrix de variables independientes
+
+# def sum_mod(lr, X):
+#     a = pd.DataFrame(lr.coef_ , X_simple.columns.values)
+#     a = a.append(pd.DataFrame([lr.intercept_, lr.score(X_simple, y)], index=['Intecept','R2']))
+#     return(a)
+```
