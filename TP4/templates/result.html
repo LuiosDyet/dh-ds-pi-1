@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sentiment Analysis Result</title>
+</head>
+
+<body>
+    <h1>Sentiment Analysis Result</h1>
+    {% if sentiment %}
+    <p>The sentiment of the tweet is {{ sentiment }}.</p>
+    {% else %}
+    <p>No sentiment prediction available.</p>
+    {% endif %}
+    <a href="/">Go back</a>
+</body>
+
+</html>
