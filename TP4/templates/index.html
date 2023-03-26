@@ -3,13 +3,69 @@
 
 <head>
     <title>Sentiment Analysis</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #555;
+            text-align: center;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Sentiment Analysis</h1>
     <form method="POST" action="/predict">
-        <label for="text">Enter your tweet (only english):</label><br>
-        <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+        <label for="text">Enter your tweet (only English):</label>
+        <textarea id="text" name="text" placeholder="Type your tweet here..."></textarea>
         <input type="submit" value="Submit">
     </form>
 </body>
